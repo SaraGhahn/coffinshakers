@@ -1,38 +1,27 @@
 
 
 body {
-    
     background-color: black;
-    color: white;
-    
-   }
+}
 
-.grid-container {
+.nav-bar {
     display: grid;
-    grid-template-columns: 40% auto auto auto auto;
-    
+    grid-template-columns: 40% auto ;
     padding: 10px;
+    font-size: 25px;
     }
-    .grid-item {
     
-   
+.logo {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    font-family: "horroroid", sans-serif;
     }
 
-
-.grid-albums {
-    justify-content: auto;
+.albums {
     display: grid;
-   
-    
-    }
-    
-    .grid-albums img {
-        width: 100%;
-
-}
+  
+ 
 
 .footer {
     position: fixed;
@@ -42,7 +31,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "horroroid", sans-serif;
     display: grid;
     grid-template-columns: auto auto; 
     }
@@ -52,22 +41,22 @@ body {
     grid-template-columns:  50px 50px 50px 50px;
     align-items: center;
     justify-content: right;
-    } 
+    }   
 
 .sm {
-
     width: 20px;
-}
+    grid-gap: 10px;
+    }
+
 .newsletter {
     right: 0;
     width: 50%;
     float: left;
     margin: 10px;
     font-size: 20px;
-}    
-  
+    }      
+
  .grid2 {
-    font-size: 40px;
     color: white;
-    }  
+    }     
 
