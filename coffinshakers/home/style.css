@@ -3,12 +3,7 @@
 body {
     background-color: black;
 }
-.logo {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    font-family: "horroroid", sans-serif;
-    }
+
 .grid-container {
     display: grid;
     grid-template-columns: 40% auto auto auto auto;
