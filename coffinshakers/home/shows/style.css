@@ -21,6 +21,28 @@ body {
     text-align: center;
     }
  
+    .events {
+        display: flex;
+        height:100vh;
+        background-image: url("background.jpg");
+        justify-content: center;
+        align-items: center;
+        }
+      
+    .grid-event {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        font-family: sans-serif;
+        text-align: center;
+        }
+    
+    .tickets {
+        color: white;
+    }    
+    
       div.gallery:hover {
         border: 1px solid #777;
       }
@@ -28,14 +50,18 @@ body {
       div.gallery img {
         width: 100%;
         height: auto;
+       
+        
       }
      
       .showgallery {
         padding: 0 6px;
         float: left;
-        width: 24.99999%;
+        width: 32%;
+
       }
       
+      }
       @media only screen and (max-width: 700px) {
         .showgallery {
           width: 49.99999%;
