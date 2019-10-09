@@ -1,73 +1,149 @@
 
 
 body {
-    
     background-color: black;
-    color: white;
-    
-   }
+}
 
 .grid-container {
     display: grid;
     grid-template-columns: 40% auto auto auto auto;
-    
     padding: 10px;
+    font-size: 25px;
     }
-    .grid-item {
     
-    
-    padding: 20px;
+.grid-about {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 40%
+    }   
+
+.band-text {
+    font-family:sans-serif;
     font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.nav {
+    color:white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 10px 40px 10px 40px;
+
+}
+
+a:hover {
+    color: grey;
+}
+
+li:hover {
+    color: grey;
+}
+
+    
+.merch-title {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    font-family:sans-serif;
+    color: white; 
+    font-size: 50px;
+    }
+
+ 
+.grid-merch {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    }  
+
+* {
+    box-sizing: border-box;
+}
+.merch-photo {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    }
+
+.box {
+    width:200px;
+
+}
+
+
+.store-button {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    color: white; 
+    font-size: 30px;
+    }
+    
+
+
+.events {
+    display: flex;
+    height:100vh;
+    background-image: url("background.jpg");
+    justify-content: center;
+    align-items: center;
+    }
+  
+.grid-event {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: sans-serif;
     text-align: center;
     }
 
-.grid-about {
-justify-content: center;
-display: grid;
-grid-template-columns: 40% 40%
-
-}
-
-h1 {
-font-size: 35px;
-
-}
-
-h2 {
-    text-align: center
-}
+.tickets {
+    color: white;
+}    
 
 
-.grid-shirts {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    
-    }
-    
-.grid-shirts img {
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: auto auto; 
+    }
 
-}
-
-
-.grid-socialmedia {
+.social-media {
+    display: grid;
+    grid-template-columns:  50px 50px 50px 50px;
+    align-items: center;
     justify-content: right;
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    
-    }
-    
-.grid-socialmedia img {
-    width: 100%;
+    } 
 
+.sm {
+
+    width: 20px;
 }
-
+.newsletter {
+    right: 0;
+    width: 50%;
+    float: left;
+    margin: 10px;
+    font-size: 20px;
+}    
   
-.BOTTOM {
-flex-flow: row-wrap;
-background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+ .grid2 {
+    font-size: 40px;
+    color: white;
+    }  
 
-}

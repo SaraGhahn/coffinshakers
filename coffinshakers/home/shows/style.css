@@ -21,3 +21,41 @@ body {
     text-align: center;
     }
 
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        display: grid;
+        grid-template-columns: auto auto; 
+        }
+    
+    .social-media {
+        display: grid;
+        grid-template-columns:  50px 50px 50px 50px;
+        align-items: center;
+        justify-content: right;
+        } 
+    
+    .sm {
+    
+        width: 20px;
+    }
+    .newsletter {
+        right: 0;
+        width: 50%;
+        float: left;
+        margin: 10px;
+        font-size: 20px;
+    }    
+      
+     .grid2 {
+        font-size: 40px;
+        color: white;
+        }  
+    
+    
