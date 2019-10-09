@@ -4,13 +4,20 @@ body {
     background-color: black;
 }
 
-.grid-container {
+.nav-bar {
     display: grid;
-    grid-template-columns: 40% auto auto auto auto;
+    grid-template-columns: 40% auto ;
     padding: 10px;
     font-size: 25px;
     }
     
+.logo {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "horroroid", sans-serif;
+    }
+
 .grid-about {
     justify-content: center;
     display: grid;
@@ -18,41 +25,68 @@ body {
     }   
 
 .band-text {
-    font-family:sans-serif;
+    font-family: "horroroid", sans-serif;
     font-size: 30px;
     text-align: center;
     color: white;
-}
+    }  
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin 0;
+    margin-left: 25%;
+    margin-top: 5%;
+    }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    }
+
+li  {
+    font-family: "horroroid", sans-serif;
+    color: white;
+    list-style-type: none;
+    margin-right: 15px;
+    float: left;
+    }
 
 .nav {
     color:white;
     text-decoration: none;
     border: solid 1px;
     padding: 10px 40px 10px 40px;
-
-}
+    }
 
 a:hover {
     color: grey;
-}
+    }
 
 li:hover {
     color: grey;
-}
+    }
 
-    
+/*  .h1 {
+    font-size: 35px;
+    font-family: "horroroid", sans-serif;
+    }
+
+.h2 {
+    text-align: center
+    font-family: "horroroid", sans-serif;
+    } */
+
 .merch-title {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    font-family:sans-serif;
+    font-family: "horroroid", sans-serif;
     color: white; 
     font-size: 50px;
     }
 
- 
 .grid-merch {
-
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -60,18 +94,28 @@ li:hover {
 
 * {
     box-sizing: border-box;
-}
+    }
+
 .merch-photo {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-    }
+    }   
 
 .box {
-    width:200px;
+    width:200px;   
+    }
 
-}
+.merchandise {
+    display: grid;
+    height: 70vh;
+    }
 
+.justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
 .store-button {
     display: grid;
@@ -80,17 +124,44 @@ li:hover {
     background-repeat: no-repeat;
     justify-content: center;
     text-align: center;
-    font-family: sans-serif;
-    color: white; 
+    font-family: "horroroid", sans-serif;
+    color: black; 
     font-size: 30px;
+    border: solid 1px black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 200px;
+    padding: 25px;
+    background-color: white;
+    }
+
+.store-button:hover {
+    color: grey;
+    }   
+    
+    
+    /*
+.event-title {
+    font-family: "horroroid", sans-serif;
+    font-color: black; 
     }
     
+.event-time {
+    font-family: "horroroid", sans-serif;
+    font-color: black; 
+    }  
+    
+.event-place {
+    font-family: "horroroid", sans-serif;
+    font-color: black; 
+    }      
 
+    */
 
 .events {
     display: flex;
     height:100vh;
-    background-image: url("background.jpg");
+    background-image: url("Artboard 1.png");
     justify-content: center;
     align-items: center;
     }
@@ -101,16 +172,38 @@ li:hover {
     grid-gap: 10px;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    font-family: sans-serif;
+    font-family: "horroroid", sans-serif;
     text-align: center;
+    }
+   
+h2.event.title {
+    font-size: 90px;
+    }   
+
+p.event-time {
+    font-size: 40px;
+    }
+
+p.event-place {
+    font-size: 40px;
     }
 
 .tickets {
-    color: white;
-}    
+    color: black;
+    border: solid 1px black;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    background-color: white;
+    
+    }    
 
+.tickets:hover {
+    color: grey;
+    }
 
-footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -118,7 +211,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "horroroid", sans-serif;
     display: grid;
     grid-template-columns: auto auto; 
     }
@@ -128,22 +221,23 @@ footer {
     grid-template-columns:  50px 50px 50px 50px;
     align-items: center;
     justify-content: right;
-    } 
+    color:
+    }   
 
 .sm {
-
     width: 20px;
-}
+    grid-gap: 10px;
+    }
+
 .newsletter {
     right: 0;
     width: 50%;
     float: left;
     margin: 10px;
     font-size: 20px;
-}    
-  
+    }      
+
  .grid2 {
-    font-size: 40px;
     color: white;
-    }  
+    }     
 
