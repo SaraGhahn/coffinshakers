@@ -19,10 +19,15 @@ body {
     }
 
 .grid-about {
+    
     justify-content: center;
     display: grid;
     grid-template-columns: 40% 40%
     }   
+
+    .band-photo{
+        filter: grayscale(100%);
+    }
 
 .band-text {
     font-family: "horroroid", sans-serif;

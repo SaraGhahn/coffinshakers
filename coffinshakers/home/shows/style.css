@@ -23,10 +23,11 @@ body {
  
     .events {
         display: flex;
-        height:100vh;
+        height:auto;
         background-image: url("background.jpg");
         justify-content: center;
         align-items: center;
+        font-size: smaller;
         }
       
     .grid-event {
