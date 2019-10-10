@@ -104,11 +104,13 @@ li:hover {
 .merch-photo {
     flex: 25%;
     max-width: 25%;
-    padding: 0 40px;
+    padding: 0 0px;
     }   
 
 .box {
-    width:250px;   
+    width:250px; 
+    display: block;
+    margin: auto auto;
     }
 
 .merchandise {
