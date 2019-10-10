@@ -86,7 +86,7 @@ li:hover {
         border: 1px solid #777;
       }
       
-      div.gallery {
+      div.gallery img {
         width: 100%;
         height: auto;
        
@@ -114,7 +114,7 @@ li:hover {
         }
       }
       
-    #footer {
+    .footer {
         position: fixed;
         left: 0;
         bottom: 0;
