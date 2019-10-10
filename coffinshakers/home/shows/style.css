@@ -108,11 +108,11 @@ p.event-place {
     color: grey;
     }
     
-     /* div.gallery:hover {
+     div.gallery:hover {
         border: 1px solid #777;
       }
       
-      div.gallery img {
+     /*  div.gallery img {
         width: 100%;
         height: auto;
        
@@ -125,7 +125,7 @@ p.event-place {
         width: 32%;
 
       }
-      
+       */
       }
       @media only screen and (max-width: 700px) {
         .showgallery {
@@ -138,7 +138,7 @@ p.event-place {
         .showgallery {
           width: 100%;
         }
-      } */
+      }
 
 .gallery_margin {
     display: flex;
