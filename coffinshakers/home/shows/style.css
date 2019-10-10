@@ -4,21 +4,61 @@ body {
 
     background-color: black;
     color: white;
+    font-family: "horroroid", sans-serif;
    }
 
-.grid-container {
+
+   .nav-bar {
     display: grid;
-    grid-template-columns: 40% auto auto auto auto;
+    grid-template-columns: 40% auto ;
     padding: 10px;
+    font-size: 25px;
     }
     
-    .grid-item {
+.logo {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    font-family: "horroroid", sans-serif;
     }
- 
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin 0;
+    margin-left: 25%;
+    margin-top: 5%;
+    }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    }
+
+li  {
+    font-family: "horroroid", sans-serif;
+    color: white;
+    list-style-type: none;
+    margin-right: 15px;
+    float: left;
+    }
+
+.nav {
+    color:white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 10px 40px 10px 40px;
+    }
+
+a:hover {
+    color: grey;
+    }
+
+li:hover {
+    color: grey;
+    }
     .events {
+      font-family: "horroroid", sans-serif;
       background-image: url(background.png);
         display: flex;
         height:auto;
@@ -28,6 +68,7 @@ body {
       
 
     .grid-event {
+      font-family: "horroroid", sans-serif;
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 10px;
@@ -107,5 +148,6 @@ body {
      
     
     .grid2 {
+      font-family: "horroroid", sans-serif;
     color: white;
     }   
