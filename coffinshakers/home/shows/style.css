@@ -140,6 +140,13 @@ p.event-place {
         }
       } */
 
+.gallery_margin {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+    margin-bottom: 100px;
+    }  
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
