@@ -166,7 +166,7 @@ li:hover {
 .events {
     display: flex;
     height:100vh;
-    background-image: url("grafik/Artboard 1.png");
+    background-image: url("grafik/background.png");
     justify-content: center;
     align-items: center;
     }
