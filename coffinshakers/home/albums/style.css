@@ -126,7 +126,8 @@ h2 {
 .box {
     width:80%;   
     height: 80%;
-    position: center;
+    display: block;
+    margin: auto auto;
     }
 
 .showgallery {
