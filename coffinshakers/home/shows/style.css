@@ -24,7 +24,7 @@ body {
     .events {
         display: flex;
         height:auto;
-        background-image: url("background.jpg");
+        background-image: url("grafik/Artboard 1.png");
         justify-content: center;
         align-items: center;
         font-size: smaller;
