@@ -120,12 +120,13 @@ h2 {
 .images {
     flex: 33.3%;
     max-width: 33.3%;
-    padding: 25 25px;
+    padding: 0 25px;
     }   
 
 .box {
     width:80%;   
     height: 80%;
+    position: absolute;
     }
 
 .showgallery {
