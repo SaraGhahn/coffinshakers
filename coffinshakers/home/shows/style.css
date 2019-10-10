@@ -4,6 +4,7 @@ body {
 
     background-color: black;
     color: white;
+    font-family: "horroroid", sans-serif;
    }
 
 .grid-container {
@@ -13,12 +14,14 @@ body {
     }
     
     .grid-item {
+      font-family: "horroroid", sans-serif;
     padding: 20px;
     font-size: 30px;
     text-align: center;
     }
  
     .events {
+      font-family: "horroroid", sans-serif;
       background-image: url(background.png);
         display: flex;
         height:auto;
@@ -28,6 +31,7 @@ body {
       
 
     .grid-event {
+      font-family: "horroroid", sans-serif;
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 10px;
@@ -107,5 +111,6 @@ body {
      
     
     .grid2 {
+      font-family: "horroroid", sans-serif;
     color: white;
     }   
