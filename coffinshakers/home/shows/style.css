@@ -1,35 +1,33 @@
 
 
 body {
-    
+
     background-color: black;
     color: white;
-    
    }
 
 .grid-container {
     display: grid;
     grid-template-columns: 40% auto auto auto auto;
-    
     padding: 10px;
     }
+    
     .grid-item {
-    
-    
     padding: 20px;
     font-size: 30px;
     text-align: center;
     }
  
     .events {
+      background-image: url(background.png);
         display: flex;
         height:auto;
-        background-image: url("background.jpg");
         justify-content: center;
         align-items: center;
         font-size: smaller;
         }
       
+
     .grid-event {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -107,10 +105,8 @@ body {
         margin: 10px;
         font-size: 20px;
     }    
-      
-     .grid2 {
-        font-size: 40px;
-        color: white;
-        }  
+     
     
-    
+    .grid2 {
+    color: white;
+    }   
