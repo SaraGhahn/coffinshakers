@@ -148,16 +148,18 @@ p.event-place {
 
 * {
     box-sizing: border-box;
+   
     }
 
 .images {
-    flex: 33,3%;
-    max-width: 33,3%;
+    flex: 33.3%;
+    max-width: 33.3%;
     padding: 0 40px;
     }   
 
 .box {
-    width:250px;   
+    width:500px;   
+    height: 350px;
     }
 
 .showgallery {
