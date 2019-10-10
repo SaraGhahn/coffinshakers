@@ -108,7 +108,7 @@ p.event-place {
     color: grey;
     }
     
-      div.gallery:hover {
+     /* div.gallery:hover {
         border: 1px solid #777;
       }
       
@@ -138,8 +138,32 @@ p.event-place {
         .showgallery {
           width: 100%;
         }
-      }
+      } */
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    }  
+
+* {
+    box-sizing: border-box;
+    }
+
+.images {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 40px;
+    }   
+
+.box {
+    width:250px;   
+    }
+
+.showgallery {
+    display: grid;
+    height: 70vh;
+    }
 
       
     .footer {
