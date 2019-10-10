@@ -8,7 +8,7 @@ body {
    }
 
 
-   .nav-bar {
+ .nav-bar {
     display: grid;
     grid-template-columns: 40% auto ;
     padding: 10px;
@@ -77,10 +77,33 @@ li:hover {
         font-family: sans-serif;
         text-align: center;
         }
+
+h2.event.title {
+    font-size: 90px;
+    }   
+
+p.event-time {
+    font-size: 40px;
+    }
+
+p.event-place {
+    font-size: 40px;
+    }
+
+.tickets {
+    color: black;
+    border: solid 1px black;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    background-color: white;
     
-    .tickets {
-        color: white;
     }    
+
+.tickets:hover {
+    color: grey;
+    }
     
       div.gallery:hover {
         border: 1px solid #777;
@@ -113,6 +136,8 @@ li:hover {
           width: 100%;
         }
       }
+
+
       
     .footer {
         position: fixed;
