@@ -29,6 +29,25 @@ body {
   }
 
 
+  table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  td, th {
+    border: 10px solid #dddddd;
+    text-align: center;
+    color: white;
+    padding: 18px;
+    gap: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 .nav-bar {
     display: grid;
     grid-template-columns: 40% auto ;
