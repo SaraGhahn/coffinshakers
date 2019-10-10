@@ -125,7 +125,7 @@ li:hover {
 .store-button {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 0px;
     background-repeat: no-repeat;
     justify-content: center;
     text-align: center;
@@ -166,7 +166,7 @@ li:hover {
 .events {
     display: flex;
     height:100vh;
-    background-image: url("grafik/background.png");
+    background-image: url("grafik/Artboard 1.png");
     justify-content: center;
     align-items: center;
     }
